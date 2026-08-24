@@ -1,0 +1,25 @@
+# File môi trường (nếu có)
+.env
+
+# Thư mục cache của Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Thư mục cache của Hugging Face / datasets
+.cache/
+cache/
+*.arrow
+*.parquet
+*.json
+
+# File dữ liệu lớn (nếu tải về)
+arxiv-metadata-*.json
+
+# Các file hệ thống
+.DS_Store
+Thumbs.db
